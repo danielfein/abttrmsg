@@ -1,0 +1,47 @@
+body,html { font: normal 100%/1.5 sans-serif; background: #fafafa; }
+
+.tabs { margin-bottom: 50px; }
+.tbl { }
+
+
+/* Copy Me */
+.tabs .menu {
+  padding: 0 0 0 35px;
+  margin: 0;
+  list-style: none;
+  position: relative;
+  top: 1px;
+}
+.tabs .menu li {
+  float: left;
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.tabs .menu li:last-child { border-right: 1px solid #ddd; }
+.tabs span {
+  font-weight: bold;
+  display: block;
+  padding: 15px 25px;
+  background: #f5f5f5;
+  color: #ccc;
+  cursor: pointer;
+  position: relative;
+}
+.tabs .active span {
+  position: relative;
+  color: salmon;
+  background: #fff;
+  cursor: default;
+}
+.tabs li.active { border-bottom: 1px solid #fff; }
+.tabs p { color: #888; }
+.tabs > div {
+  clear: both;
+  margin: 0;
+  padding: 20px;
+  border: 1px solid #ddd;
+  display: none;
+  background: #fff;
+}
+.tabs .visible { display: block; }

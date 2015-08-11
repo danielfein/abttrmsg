@@ -1,0 +1,11 @@
+<svg>
+  <circle fill="orange" cy="100" r="20">
+    <animate attributeName="cx" from="250" to="50"
+    dur="5s"　repeatCount="indefinite" />
+  </circle>
+  <circle fill="blue" cx="150" cy="100" r="50" />
+  <circle fill="orange" cy="100" r="20">
+    <animate attributeName="cx" from="50" to="250"
+    dur="5s" repeatCount="indefinite" />
+  </circle>
+</svg>

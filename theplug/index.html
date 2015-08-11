@@ -1,0 +1,23 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="theplug.js"></script>
+</head>
+<body>
+  <svg>
+    <circle fill="orange" cy="100" r="20">
+      <animate attributeName="cx" from="250" to="50"
+      dur="5s"　repeatCount="indefinite" />
+    </circle>
+    <circle fill="blue" cx="150" cy="100" r="50" />
+    <circle fill="orange" cy="100" r="20">
+      <animate attributeName="cx" from="50" to="250"
+      dur="5s" repeatCount="indefinite" />
+    </circle>
+  </svg>
+
+  <script type='text/javascript' id="__bs_script__">//<![CDATA[
+      document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.2.8.2.js'><\/script>".replace("HOST", location.hostname));
+//]]></script>
+</body>
+</html>
